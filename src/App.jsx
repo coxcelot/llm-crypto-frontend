@@ -13,7 +13,7 @@ function App() {
 
     const mintTokens = async () => {
         try {
-            const response = await fetch('https://605a3506-6911-4d7f-b64c-aed6ba598812-00-1wni5uj7nrwkd.kirk.replit.dev/mint', { // Your Replit URL
+            const response = await fetch('https://aboard-aerial-bird.glitch.me/mint', { // Your Glitch URL
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ publicKey: keypair.publicKey.toString() }),
@@ -38,3 +38,4 @@ function App() {
 }
 
 export default App;
+
